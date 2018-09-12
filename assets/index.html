@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sakura Healing</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css" />
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link href="https://fonts.googleapis.com/earlyaccess/kokoro.css" rel="stylesheet" />
+</head>
+
+<body class="container">
+    <header>
+        <div class="jumbotron">
+            <h1 class="display-6">さくら接骨院</h1>
+<!--             <div class="container d-flex flex-column flex-md-row align-items-center p-3 px-md-4 ">
+                </h1>
+                <nav class="my-2 ">
+                    <a class="p-2" href="#">みなさまへ</a>
+                    <a class="p-2" href="#">当院の治療法</a>
+                    <a class="p-2" href="#">お客様の声</a>
+                    <a class="p-2" href="#">当院の場所</a> -->
+<!--                     <a class="btn btn-outline-primary" href="#">マイページ</a> -->
+<!--                 </nav>
+            </div> -->
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav p-auto">
+                    <a class="nav-item nav-link active" href="#">トップ</a>
+                    <a class="nav-item nav-link" href="#">みなさまへ</a>
+                    <a class="nav-item nav-link" href="#">当院の治療法</a>
+                    <a class="nav-item nav-link" href="#">お客様の声</a>
+                    <a class="nav-item nav-link" href="#">当院の場所</a>
+                    <a class="nav-item nav-link" href="#">マイページ</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- カルーセル -->
+    <main role="main">
+        <div id="myCarousel" class="carousel slide container" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="first-slide" src="images/slide01.jpg" alt="First slide">
+                    <div class="container">
+                        <div class="carousel-caption text-left">
+                            <h2>割引クーポンキャンペーン</h2>
+                            <p>旅行サイトでクーポンを配布していることは珍しくなく10,000円以上の割引になることもあります。プレミアムフライデー限定のクーポンもあるので、お得に活用してみてください！</p>
+                            <p><a class="btn btn-lg btn-primary" href="#campain" role="button">今日のいちおしクーポン</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="second-slide" src="images/slide02.jpg" alt="Second slide">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h2>人気の定番コース</h2>
+                            <p>1週間なら、中4日間はまるまる時間を使うことが可能。定番の世界遺産コースをゆっくり見たり、日帰りで近くの都市に足を延ばしたりなど、ぜいたくな滞在ができます。</p>
+                            <p><a class="btn btn-lg btn-primary" href="#course" role="button">いろいろなコース案内へ</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="third-slide" src="images/slide03.jpg" alt="Third slide">
+                    <div class="container">
+                        <div class="carousel-caption text-right">
+                            <h2>プレミアムコンダクター</h2>
+                            <p>ツアーコンダクターオブザイヤーを受賞したスタッフはお客様から高い評価をいただいております。あなたの大切な旅にプレミアムな添乗員が同行するツアーはいかがでしょう？</p>
+                            <p><a class="btn btn-lg btn-primary" href="#staff" role="button">添乗員スタッフのご紹介</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="Fourth-slide" src="images/slide04.jpg" alt="Fourth slide">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h2>社員優遇による業績アップ</h2>
+                            <p>さまざまな取り組みを行う企業が増えていますが、なかでも、ユニークな社内制度を導入し、業績アップにつなげている各部署やコースでの取り組みや工夫を紹介していきます。</p>
+                            <p><a class="btn btn-lg btn-primary" href="#corporate" role="button">驚きの仕組み導入とは</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="Fifth-slide" src="images/slide05.jpg" alt="Fifth slide">
+                    <div class="container">
+                        <div class="carousel-caption text-right" style="top:50px">
+                            <h2>好きな気持ちが会社を創る!</h2>
+                            <p>海外旅行は感動と満足を創出する大事な「人」を変革の原動力としてバックアップサポートしていきます。マーケットの構造変化に柔軟に呼応しながらチャレンジ精神旺盛な方を募集いたします。</p>
+                            <p><a class="btn btn-lg btn-primary" href="#recruit" role="button">さまざまな採用形態を確認</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <div class="bg-light">
+            <section class="my-5" id="campain">
+                <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+                    <h2 class="display-4">Campain</h2>
+                    <p class="lead">夏旅応援特集お得なキャンペーンクーポン配布中!
+                        <br>それぞれのコースはオリジナルでご用意している期間限定割引クーポンです。</p>
+                </div>
+                <div class="card-deck mb-3 text-center">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header">
+                            <h3 class="my-0 font-weight-normal">宿泊割引</h3>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title pricing-card-title font-weight-bold display-4 text-danger">3.5 <small class="text-muted"> 万円</small></h4>
+                            <img src="images/campain01.jpg" alt="ヨーロッパ地域" class="img-thumbnail">
+                            <ul class="list-group list-group-flush text-left mt-3 mb-4">
+                                <li class="list-group-item"><span class="font-weight-bold">利用金額</span>：150,000円以上</li>
+                                <li class="list-group-item"><span class="font-weight-bold">対象コース</span>：北中米地域</li>
+                                <li class="list-group-item"><span class="font-weight-bold">予約対象期間</span>：20XX/05/01～</li>
+                                <li class="list-group-item"><span class="font-weight-bold">対象人数</span>：5人</li>
+                                <li class="list-group-item text-muted small">※プレミアム会員限定</li>
+                            </ul>
+                            <button type="button" class="btn btn-lg btn-block btn-outline-primary">詳細はこちら</button>
+                        </div>
+                    </div>
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header">
+                            <h3 class="my-0 font-weight-normal">全体割引</h3>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title pricing-card-title font-weight-bold display-4 text-danger">9.6 <small class="text-muted"> 万円</small></h4>
+                            <img src="images/campain02.jpg" alt="ヨーロッパ地域" class="img-thumbnail">
+                            <ul class="list-group list-group-flush text-left mt-3 mb-4">
+                                <li class="list-group-item"><span class="font-weight-bold">利用金額</span>：300,000円以上</li>
+                                <li class="list-group-item"><span class="font-weight-bold">対象コース</span>：ヨーロッパ地域</li>
+                                <li class="list-group-item"><span class="font-weight-bold">予約対象期間</span>：20XX/09/01～</li>
+                                <li class="list-group-item"><span class="font-weight-bold">対象人数</span>：3人</li>
+                                <li class="list-group-item text-muted small">※プレミアム会員限定</li>
+                            </ul>
+                            <button type="button" class="btn btn-lg btn-block btn-outline-primary">詳細はこちら</button>
+                        </div>
+                    </div>
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header">
+                            <h3 class="my-0 font-weight-normal">チケット割引</h3>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title pricing-card-title font-weight-bold display-4 text-danger">2.4 <small class="text-muted"> 万円</small></h4>
+                            <img src="images/campain03.jpg" alt="ヨーロッパ地域" class="img-thumbnail">
+                            <ul class="list-group list-group-flush text-left mt-3 mb-4">
+                                <li class="list-group-item"><span class="font-weight-bold">利用金額</span>：100,000円以上</li>
+                                <li class="list-group-item"><span class="font-weight-bold">対象コース</span>：アジア地域</li>
+                                <li class="list-group-item"><span class="font-weight-bold">予約対象期間</span>：20XX/06/01～</li>
+                                <li class="list-group-item"><span class="font-weight-bold">対象人数</span>：8人</li>
+                                <li class="list-group-item text-muted small">※一般会員およびビジター含む</li>
+                            </ul>
+                            <button type="button" class="btn btn-lg btn-block btn-outline-primary">詳細はこちら</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- コース -->
+        <section class="my-5" id="cource">
+            <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+                <h2 class="display-4">Course</h2>
+                <p class="lead">全国各地の発着ツアーをご紹介。フリープランは自由気ままに各地域ごとの定番ツアーや、
+                    <br>おすすめのツアーをそれぞれご紹介。ツアーの検索やご予約も簡単です。</p>
+            </div>
+            <div class="row mb-2">
+                <div class="col-md-6">
+                    <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                        <!-- Block01 -->
+                        <div class="card-body d-flex flex-column align-items-start">
+                            <strong class="d-inline-block mb-2 text-danger">Asia</strong>
+                            <h3 class="mb-0">
+                                <a class="text-dark font-weight-bold" href="#">買い尽くし台北</a>
+                            </h3>
+                            <div class="mb-1 text-muted">3日間</div>
+                            <p class="card-text mb-auto">往路送迎付き　朝食付き　カジュアルクラスのホテル　行き：午後発／帰り：午後～夕刻着</p>
+                            <a href="#">空き状況を見る</a>
+                        </div>
+                        <img class="card-img-right flex-auto d-none d-lg-block" src="images/course01.jpg" alt="台北">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                        <!-- Block01 -->
+                        <div class="card-body d-flex flex-column align-items-start">
+                            <strong class="d-inline-block mb-2 text-primary">North America</strong>
+                            <h3 class="mb-0">
+        <a class="text-dark font-weight-bold" href="#">ゆっくりハワイ</a>
+    </h3>
+                            <div class="mb-1 text-muted">5日間</div>
+                            <p class="card-text mb-auto">往路送迎付き　朝食付き　カジュアルクラスのホテル　行き：午前発／帰り：午後～夕刻着</p>
+                            <a href="#">空き状況を見る</a>
+                        </div>
+                        <img class="card-img-right flex-auto d-none d-lg-block" src="images/course02.jpg" alt="ハワイ">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                        <!-- Block01 -->
+                        <div class="card-body d-flex flex-column align-items-start">
+                            <strong class="d-inline-block mb-2 text-success">Europe</strong>
+                            <h3 class="mb-0">
+                            <a class="text-dark font-weight-bold" href="#">おしゃれにベニス</a>
+                        </h3>
+                            <div class="mb-1 text-muted">10日間</div>
+                            <p class="card-text mb-auto">往路送迎付き　朝食付き　カジュアルクラスのホテル　行き：午後発／帰り：午後～夕刻着</p>
+                            <a href="#">空き状況を見る</a>
+                        </div>
+                        <img class="card-img-right flex-auto d-none d-lg-block" src="images/course03.jpg" alt="ベニス">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                        <!-- Block01 -->
+                        <div class="card-body d-flex flex-column align-items-start">
+                            <strong class="d-inline-block mb-2 text-warning">North America</strong>
+                            <h3 class="mb-0">
+                                <a class="text-dark font-weight-bold" href="#">冒険リオデジャネイロ</a>
+                            </h3>
+                            <div class="mb-1 text-muted">14日間</div>
+                            <p class="card-text mb-auto">往路送迎付き　朝食付き　カジュアルクラスのホテル　行き：午後発／帰り：午後～夕刻着</p>
+                            <a href="#">空き状況を見る</a>
+                        </div>
+                        <img class="card-img-right flex-auto d-none d-lg-block" src="images/course04.jpg" alt="リオデジャネイロ">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- スタッフ -->
+        <div class="bg-light">
+            <section class="my-5" id="campain">
+                <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+                    <h2 class="display-4">Staff</h2>
+                    <p class="lead">各地域に精通したツアーコンダクターはご参加のお客様から高い評価をいただいております。
+                        <br>お客様のご旅行がより思い出深くなるよう、旅のサポートをさせていただきます。</p>
+                </div>
+                <!-- Three columns of text below the carousel -->
+                <div class="row text-center">
+                    <div class="col-lg-4">
+                        <img class="rounded-circle img-thumbnail mb-3" src="images/staff01.jpg" alt="相川亜希" width="240" height="240">
+                        <h2>相川 亜希</h2>
+                        <p class="text-justify">常に明るく元気に！主役はお客様！どんなに悪天候でもストライキなどのトラブルに遭遇しても全てポジティブに考え、最終的に「笑顔」でお帰り頂ける様に影に日向に動き回ります！</p>
+                        <table class="table table-hover">
+                            <tr>
+                                <th>添乗歴約</th>
+                                <td>19年</td>
+                            </tr>
+                            <tr>
+                                <th>渡航国数</th>
+                                <td>105カ国</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">総合旅行業務取り扱い主任者</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">添乗員能力資格1級</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">JATA旅程管理研修講師認定</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">社内サブ添乗業務研修講師</td>
+                            </tr>
+                        </table>
+                        <p><a class="btn btn-lg btn-block btn-outline-primary" href="#" role="button">添乗ツアーはこちら &raquo;</a></p>
+                    </div>
+                    <!-- /.col-lg-4 -->
+                    <div class="col-lg-4">
+                        <img class="rounded-circle img-thumbnail mb-3" src="images/staff02.jpg" alt="大塚千秋" width="240" height="240">
+                        <h2>大塚 千秋</h2>
+                        <p class="text-justify">常に冷静に落ち着いてがモットーです。たとえ忙しい行程のツアーでも、なるべくお客様にご旅行中にゆったりとした気分を味わって頂けるように努力をしております。</p>
+                        <br>
+                        <table class="table table-hover">
+                            <tr>
+                                <th>添乗歴約</th>
+                                <td>21年</td>
+                            </tr>
+                            <tr>
+                                <th>渡航国数</th>
+                                <td>40カ国</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">添乗員能力資格1級</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">JATA旅程管理研修講師認定</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">ツアコン奨励賞受賞</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">英語/ロシア語/ポルトガル語</td>
+                            </tr>
+                        </table>
+                        <p><a class="btn btn-lg btn-block btn-outline-primary" href="#" role="button">添乗ツアーはこちら &raquo;</a></p>
+                    </div>
+                    <!-- /.col-lg-4 -->
+                    <div class="col-lg-4">
+                        <img class="rounded-circle img-thumbnail mb-3" src="images/staff03.jpg" alt="大友康隆" width="240" height="240">
+                        <h2>大友 康隆</h2>
+                        <p class="text-justify">初心を忘れず、楽しい旅を演出する。私には何度も訪れている場所・国でも、お客様にとっては最初で最後かもしれません。お客様の人生の彩りになるように心がけております。</p>
+                        <table class="table table-hover">
+                            <tr>
+                                <th>添乗歴約</th>
+                                <td>19年</td>
+                            </tr>
+                            <tr>
+                                <th>渡航国数</th>
+                                <td>45カ国</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">総合旅行業務取り扱い主任者</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">デスティネーションスペシャリスト</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">ドイツ認定</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">英語/スペイン語/中国語</td>
+                            </tr>
+                        </table>
+                        <p><a class="btn btn-lg btn-block btn-outline-primary" href="#" role="button">添乗ツアーはこちら &raquo;</a></p>
+                    </div>
+                    <!-- /.col-lg-4 -->
+                </div>
+                <!-- /.row -->
+            </section>
+        </div>
+        <section class="my-5" id="corporate">
+            <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+                <h2 class="display-4">Corporate</h2>
+                <p class="lead">旅の楽しさ、美しさ、心地よさをお伝えし、高級感、信頼感、親しみやすさのあるご対応をします。
+                    <br>常に自身の成長とお客様の満足するサービスを心掛けていきます。</p>
+            </div>
+            <table class="table table-striped">
+                <tr>
+                    <th>社名</th>
+                    <td>スカイトラベル株式会社</td>
+                </tr>
+                <tr>
+                    <th>設立</th>
+                    <td>20XX年1月1日</td>
+                </tr>
+                <tr>
+                    <th>資本金</th>
+                    <td>1億2000万円（2010年12月31日）</td>
+                </tr>
+                <tr>
+                    <th>従業員数</th>
+                    <td>56名</td>
+                </tr>
+                <tr>
+                    <th>主要取引先銀行</th>
+                    <td>三井住友銀行 池袋支店
+                        <br> 三菱東京UFJ銀行 西池袋支店
+                        <br> みずほ銀行 池袋支店
+                    </td>
+                </tr>
+            </table>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.9718154190423!2d139.6978829152593!3d35.702311180189405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f5!3m3!1m2!1s0x60188d2f6cba44df%3A0x18b3bc4c95b9f078!2z44CSMTY5LTAwNzMg5p2x5Lqs6YO95paw5a6_5Yy655m-5Lq655S677yS5LiB55uu77yU4oiS77yY!5e0!3m2!1sja!2sjp!4v1536201408453" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </section>
+        <div class="bg-light py-3">
+            <section class="my-5" id="recruit">
+                <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+                    <h2 class="display-4">Recruit</h2>
+                    <p class="lead">添乗員に必要な旅程管理主任者資格を取得する為の研修を常時行っております。
+                        <br>未経験でも充実した研修と万全のフォロー体制がありますのでご安心下さい。</p>
+                </div>
+                <form action="" method="post" class="needs-validation my-5" novalidate>
+                    <div class="row">
+                        <div class="col-md-12 mb-3 text-center">
+                            <div class="form-check form-check-inline">
+                                <input id="recruit_stuff" name="recruit" type="radio" class="form-check-input" checked required>
+                                <label class="form-check-label" for="recruit_stuff">スタッフ募集の件で</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input id="recruit_part" name="recruit" type="radio" class="form-check-input" required>
+                                <label class="form-check-label" for="recruit_part">お問い合わせ</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input id="recruit_other" name="recruit" type="radio" class="form-check-input" required>
+                                <label class="form-check-label" for="recruit_other">その他</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6 my-4">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">氏</span>
+                                </div>
+                                <input type="text" class="form-control form-control-lg" placeholder="山田" required>
+                                <div class="invalid-feedback">氏名は必須です。入力をお願いいたします。</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 my-4">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">名</span>
+                                </div>
+                                <input type="text" class="form-control form-control-lg" placeholder="太郎" required>
+                                <div class="invalid-feedback">姓名は必須です。入力をお願いいたします。</div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 my-4">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">メール</span>
+                                </div>
+                                <input type="email" class="form-control form-control-lg" placeholder="you@example.com" required>
+                                <div class="invalid-feedback">メールアドレスは必須です。入力をお願いいたします。</div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 my-4">
+                            <hr class="my-4">
+                            <button class="btn btn-primary btn-lg btn-block" type="submit">送 信</button>
+                        </div>
+                </form>
+            </section>
+            </div>
+    </main>
+    <footer class="pt-4 my-md-5 pt-md-5 border-top">
+        <div class="row">
+            <div class="col-12 col-md">
+                <img class="mb-2" src="images/logo.png" alt="" width="168" height="24">
+                <ul class="list-unstyled list-inline my-2">
+                    <li class="list-inline-item"><a href=""><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></a></li>
+                    <li class="list-inline-item"><a href=""><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span></a></li>
+                    <li class="list-inline-item"><a href=""><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-instagram fa-stack-1x fa-inverse"></i></span></a></li>
+                    <li class="list-inline-item"><a href=""><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-pinterest fa-stack-1x fa-inverse"></i></span></a></li>
+                </ul>
+                <small class="d-block mb-3 text-muted">&copy; 20XX SKY TRAVEL co.,ltd.</small>
+            </div>
+            <div class="col-6 col-md">
+                <h5 class="font-weight-bold text-muted pl-3">サービス</h5>
+                <ul class="list-group list-group-flush list-unstyled text-left mt-3 mb-4">
+                    <li><a class="text-muted list-group-item" href="#">格安航空券</a></li>
+                    <li><a class="text-muted list-group-item" href="#">コース案内</a></li>
+                    <li><a class="text-muted list-group-item" href="#">提携ホテル</a></li>
+                    <li><a class="text-muted list-group-item" href="#">Wi-Fiレンタル</a></li>
+                    <li><a class="text-muted list-group-item" href="#">オプション</a></li>
+                    <li><a class="text-muted list-group-item" href="#">都市情報</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5 class="font-weight-bold text-muted pl-3">インフォメーション</h5>
+                <ul class="list-group list-group-flush list-unstyled text-left mt-3 mb-4">
+                    <li><a class="text-muted list-group-item" href="#">サイトマップ</a></li>
+                    <li><a class="text-muted list-group-item" href="#">サイト利用について</a></li>
+                    <li><a class="text-muted list-group-item" href="#">よくある質問</a></li>
+                    <li><a class="text-muted list-group-item" href="#">不具合・お問合せ</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5 class="font-weight-bold text-muted pl-3">メディア</h5>
+                <ul class="list-group list-group-flush list-unstyled text-left mt-3 mb-4">
+                    <li><a class="text-muted list-group-item" href="#">プレス</a></li>
+                    <li><a class="text-muted list-group-item" href="#">テレビCM情報</a></li>
+                    <li><a class="text-muted list-group-item" href="#">広告/参画</a></li>
+                    <li><a class="text-muted list-group-item" href="#">プライバシーポリシー</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/holder.min.js"></script>
+    <div class="container"></div>
+    </div>
+    <script>
+    $(function() {
+        var topBtn = $('#backbtn');
+        topBtn.hide();
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 500) {
+                topBtn.fadeIn();
+            } else {
+                topBtn.fadeOut();
+            }
+        });
+        topBtn.click(function() {
+            $('body,html').animate({
+                scrollTop: 0
+            }, 500);
+            return false;
+        });
+    });
+    </script>
+    <button type="button" class="btn btn-primary" id="backbtn">トップに戻る <span class="badge badge-light"><i class="fa fa-arrow-up"></i></span></button>
+    <script type="text/javascript">
+    (function(u, d) {
+        var j = d.createElement('script');
+        if (u.indexOf('iPhone') > 0 || u.indexOf('Android') > 0) {
+            j.src = 'js/sakura.smart.js'; /* スマートフォン用の桜のスクリプトのパス or URL */
+        } else {
+            j.src = 'js/sakura.smart.js'; /* パソコン用の桜のスクリプトのパス or URL */
+        }
+        d.body.appendChild(j);
+    })(navigator.userAgent, document);
+    </script>
+</body>
+
+</html>

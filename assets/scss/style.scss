@@ -1,0 +1,54 @@
+@charset 'utf-8';
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+@import 'bootstrap';
+
+// my_variables
+// $main_font_color:#f12fd7;
+$main_font_color:#679006;
+
+// header
+html{
+                color: $main_font_color;
+}
+body {
+font-family: "Kokoro";
+
+    background-image: url("../images/back5.jpg");
+    header {
+        .jumbotron {
+            background-image: url("../images/back3.jpg");
+            background-size: cover;
+            margin-bottom: 10px;
+            h1 {
+                color: $main_font_color;
+                text-align: center;
+            }
+        }
+        >nav.navbar-light {
+            background-color: $primary;
+            color: $main_font_color;
+        }
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: $main_font_color;
+    }
+    .navbar-light .navbar-brand {
+        color: $main_font_color;
+    }
+}
+
+h1 {
+    h2.display-4 {
+        font-weight: bold;
+    }
+}
+
+
+// #backbtn {
+//     position: fixed;
+//     bottom: 20px;
+//     right: 20px;
+//     .badge {
+//         color: $primary;
+//     }
+// }
