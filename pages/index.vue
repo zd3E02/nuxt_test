@@ -3,7 +3,51 @@
     <!-- <li>{{user.title.rendered}}</h1> -->
     <h1 v-html="user.content.rendered"></h1>
     <!-- <li v-for="(id,date,title,content) in user">{{user.id}}{{user.date}}{{user.title}}{{user.content}}</li> -->
-  </section>
+
+        <b-dropdown>
+            <button class="button is-primary" slot="trigger">
+                <span>Click me!</span>
+                <b-icon icon="menu-down"></b-icon>
+            </button>
+
+            <b-dropdown-item>Action</b-dropdown-item>
+            <b-dropdown-item>Another action</b-dropdown-item>
+            <b-dropdown-item>Something else</b-dropdown-item>
+        </b-dropdown>
+
+        <b-dropdown hoverable>
+            <button class="button is-info" slot="trigger">
+                <span>Hover me!</span>
+                <b-icon icon="menu-down"></b-icon>
+            </button>
+
+            <b-dropdown-item>Action</b-dropdown-item>
+            <b-dropdown-item>Another action</b-dropdown-item>
+            <b-dropdown-item>Something else</b-dropdown-item>
+        </b-dropdown>
+
+        <b-dropdown disabled>
+            <button class="button" slot="trigger">
+                <span>Disabled</span>
+                <b-icon icon="menu-down"></b-icon>
+            </button>
+
+            <b-dropdown-item>Action</b-dropdown-item>
+            <b-dropdown-item>Another action</b-dropdown-item>
+            <b-dropdown-item>Something else</b-dropdown-item>
+        </b-dropdown>
+
+        <b-dropdown>
+            <p class="tag is-success" slot="trigger">
+                Custom trigger
+            </p>
+
+            <b-dropdown-item>Action</b-dropdown-item>
+            <b-dropdown-item>Another action</b-dropdown-item>
+            <b-dropdown-item>Something else</b-dropdown-item>
+        </b-dropdown>
+    </section>
+
 </template>
 
 <script>
@@ -36,4 +80,9 @@ export default {
   border-radius: 50%;
   overflow: hidden;
 }
+
+
+    .tag {
+        cursor: pointer;
+    }
 </style>
