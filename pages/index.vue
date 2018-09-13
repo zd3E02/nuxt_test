@@ -1,8 +1,8 @@
 <template>
    <section class="container">
       <div>
-        <div v-for="(id,title) in post_list" v-bind:key='id'>
-          <a>{{title}}</a>
+        <div v-for="(id,type) in post_list" v-bind:key='id'>
+          <a>{{type}}</a>
         </div>
       </div>
     <!-- <li>{{user.title.rendered}}</h1> -->
@@ -19,7 +19,7 @@
       let response = await wpApi.get_posts();
       store.commit('post_list_update',response)
     },
-    computed: mapState(['post_list']),
+    computed: mapState(['post_list'],["type"]),
     layout: '../layouts/default'
   }
 </script>
