@@ -37,8 +37,10 @@ module.exports = {
       }
     }
   },
-  modules: [
-    'node_modules/nuxt-buefy'
-  ]
+modules: [
+    // Simple usage
+    'nuxt-buefy',
+ ],
+ buefy: { /* buefy options */ }
 }
 
