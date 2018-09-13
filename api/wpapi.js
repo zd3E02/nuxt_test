@@ -5,10 +5,9 @@ class WpApi {
     this.apiBase = "http://zd3e02.sim.zdrv.com/wp02/wp-json/wp/v2";
   }
   get_posts() {
-      return axios.get(`${this.apiBase}/posts/5`)
-        .then(response => {
-          console.log(response);
-        })
+      return axios
+      .get(`${this.apiBase}/posts/5`)
+      .then(response => (this.data = response.data))
         .catch(e => ({ error: e }));
     }
   }

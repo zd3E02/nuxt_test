@@ -1,9 +1,7 @@
 <template>
    <section class="container">
-      <div>
-        <div v-for="(id,type) in post_list" v-bind:key='id'>
-          <a>{{type}}</a>
-        </div>
+        <div v-for="data in post_list" v-bind:key='data.id'>
+          <a>{{data}}</a>
       </div>
     <!-- <li>{{user.title.rendered}}</h1> -->
     <!-- <li v-for="(id,date,title,content) in user">{{user.id}}{{user.date}}{{user.title}}{{user.content}}</li> -->
