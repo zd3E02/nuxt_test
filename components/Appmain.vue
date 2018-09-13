@@ -20,24 +20,5 @@
       store.commit('post_list_update',response)
     },
     computed: mapState(['post_list']),
-    layout: '../layouts/default'
   }
 </script>
-
-
-<style>
-.container {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
-}
-
-.container img{
-  margin-bottom: 20px;
-  border-radius: 50%;
-  overflow: hidden;
-}
-</style>
