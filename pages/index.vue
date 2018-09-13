@@ -19,7 +19,7 @@
       let response = await wpApi.get_posts();
       store.commit('post_list_update',response)
     },
-    computed: mapState(['post_list'],["type"]),
+    computed: mapState(['post_list']),
     layout: '../layouts/default'
   }
 </script>

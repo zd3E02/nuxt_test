@@ -7,7 +7,7 @@ class WpApi {
   get_posts() {
       return axios.get(`${this.apiBase}/posts/5`)
         .then(response => {
-          // console.log(response);
+          console.log(response);
         })
         .catch(e => ({ error: e }));
     }

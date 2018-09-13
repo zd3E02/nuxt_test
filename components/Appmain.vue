@@ -1,10 +1,11 @@
 <template>
    <section class="container">
-      <div>
+    aaa
+<!--       <div>
         <div v-for="(id,title) in post_list" v-bind:key='id'>
           <a>{{title}}</a>
         </div>
-      </div>
+      </div> -->
     <!-- <li>{{user.title.rendered}}</h1> -->
     <!-- <li v-for="(id,date,title,content) in user">{{user.id}}{{user.date}}{{user.title}}{{user.content}}</li> -->
   </section>
